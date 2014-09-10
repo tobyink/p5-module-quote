@@ -1,0 +1,9 @@
+@prefix deps:  <http://ontologi.es/doap-deps#> .
+
+<http://purl.org/NET/cpan-uri/dist/Module-Quote/project>
+	deps:runtime-requirement         [ deps:on "Module::Hash 0.001"^^deps:CpanId ];
+	deps:runtime-requirement         [
+		deps:on "PerlX::QuoteOperator 0.004"^^deps:CpanId;
+	];
+	deps:test-requirement            [ deps:on "Test::More 0.61"^^deps:CpanId ].
+
