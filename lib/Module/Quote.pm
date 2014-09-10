@@ -6,7 +6,7 @@ use warnings;
 
 BEGIN {
 	$Module::Quote::AUTHORITY = 'cpan:TOBYINK';
-	$Module::Quote::VERSION   = '0.001';
+	$Module::Quote::VERSION   = '0.002';
 }
 
 sub import
